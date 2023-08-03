@@ -1,0 +1,110 @@
+name: cabira
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.4+5
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  dotted_border: ^2.0.0+2
+  sizer: ^2.0.15
+  google_fonts: ^2.1.0
+  http_parser: ^4.0.0
+  font_awesome_flutter: ^9.2.0
+  animated_widgets: ^1.1.0
+  flutter_cache_manager: ^3.3.0
+  page_transition: ^2.0.4
+  http: ^0.13.0
+  fluttertoast: ^8.0.8
+  cupertino_icons: ^1.0.3
+  flutter_bloc: ^7.0.0
+  shared_preferences: ^2.0.5
+  animation_wrappers: 0.0.2
+  location: ^4.4.0
+  geocoder: ^0.2.1
+  google_maps_place_picker_mb: ^2.0.0-mb.16
+  google_maps_flutter: ^2.0.6
+  flutter_polyline_points: ^1.0.0
+  google_mobile_ads: ^0.13.2
+  equatable: ^2.0.3
+  image_picker_gallery_camera: ^0.2.2
+  cached_network_image: ^3.2.3
+#  cached_network_image: ^3.2.3
+  carousel_slider: ^4.0.0
+  connectivity: ^3.0.6
+  flutter_local_notifications: ^9.0.0
+  path_provider: ^2.0.2
+  permission_handler: ^10.2.0
+  khalti_flutter: ^2.2.1
+  firebase_auth: ^4.4.1
+  social_share: ^2.2.1
+  url_launcher: ^6.0.17
+  flutter_datetime_picker: ^1.5.1
+  flutter_branch_sdk: 6.4.0
+  google_sign_in: ^5.2.3
+  flutter_login_facebook: ^1.4.1
+  flutter_facebook_auth: ^4.3.0
+  flutter_rating_bar: ^4.0.0
+  firebase_core: ^2.12.0
+  firebase_messaging: ^14.6.0
+  firebase_dynamic_links: ^5.1.0
+  animated_text_kit: ^4.2.2
+  sqflite: ^2.2.8+2
+  razorpay_flutter: ^1.2.9
+  screen: ^0.0.5
+  image_cropper: ^1.4.1
+  #firebase_dynamic_links: ^5.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  flutter_launcher_icons: "^0.9.0"
+dependency_overrides:
+  file: ^6.1.4
+  geolocator: ^9.0.2
+  modal_bottom_sheet: ^3.0.0-pre
+#flutter_icons:
+#  android: "ic_launcher"
+#  ios: true
+#  image_path: "assets/app_icons.png"
+
+flutter_launcher_name:
+  name: "Alpha Taxi"
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/cars/
+    - assets/users/
+    - lib/language/
+  fonts:
+    - family: Andina
+      fonts:
+        - asset: fonts/andina.ttf
+
+    - family: Regular
+      fonts:
+        - asset: fonts/googlesansregular.ttf
+
+    - family: Medium
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Semibold
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Bold
+      fonts:
+        - asset: fonts/googlesansebold.ttf
